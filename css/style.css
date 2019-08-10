@@ -63,7 +63,8 @@ section {
 header {
     text-align: center;
     color: #fff;
-    background-image: url('../img/conference-hero.jpg');
+    background-image: linear-gradient(rgba(87,115,153,.5), rgba(87,115,153,.5)), url('../img/conference-hero.jpg');
+    background-size: cover;
     padding: 80px;
 }
 
@@ -72,7 +73,22 @@ header img {
     width: 200px;
 }
 
+header h1 {
+    text-transform: uppercase;
+}
 
+/* What to Expect */
+
+#expect {
+    background: var(--light-blue);
+}
+
+#expect ul li {
+    line-height: 1.4;
+}
+#expect ul li span {
+  font-weight: bold;
+}
 /* Three Points */
 
 .three-points-section{
@@ -92,6 +108,64 @@ header img {
     width: 60%;
     float: left;
 }
+
+
+/* Reserve Your Spot */
+
+#reserve {
+    background: var(--light-blue);
+}
+
+
+/* Speakers */
+
+#speakers .day-one {
+    display: inline-block;
+    float: left;
+    width: 45%;
+    margin-right: 80px;
+}
+#speakers .day-two {
+    display: inline-block;
+    float: left;
+    width: 45%;
+}
+
+#speakers .day-one h4 , #speakers .day-two h4 {
+text-align: center;
+text-transform: uppercase;
+}
+
+#speakers .day-one > div, #speakers .day-two > div{
+    height: 200px;
+}
+
+#speakers .day-one > div img, #speakers .day-two > div img  {
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-right: 75px;
+}
+
+
+/* What are you waiting for? */
+#waiting {
+
+    background: var(--light-blue);
+}
+
+/* Footer */
+
+footer {
+    background: var(--dark-gray);
+    color: #fff;
+}
+
+footer .wrap {
+    padding: 10px 50px;
+    text-align: center;
+}
+
 
 /***** TICKETS *****/
 
