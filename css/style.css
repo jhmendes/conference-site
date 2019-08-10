@@ -1,0 +1,98 @@
+/* COLOR VARIABLES */
+
+:root {
+
+    --dark-blue: #577399;
+    --light-blue: #bdd5ea;
+    --dark-gray: #495867;
+    --light-gray: #e9e9e9;
+    --light-red: #f35f55;
+}
+
+
+/* BASE STYLES */
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+}
+h2 {
+    font-size: 32px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+h5 {
+    font-size: 20px;
+}
+
+/* DEFAULTS */
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+section {
+    overflow: auto;
+}
+
+.wrap {
+    max-width: 1280px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+/***** HOMEPAGE *****/
+
+
+/* Header */
+
+header {
+    text-align: center;
+    color: #fff;
+    background-image: url('../img/conference-hero.jpg');
+    padding: 80px;
+}
+
+header img {
+    margin: 0 auto;
+    width: 200px;
+}
+
+
+/* Three Points */
+
+.three-points-section{
+ min-height: 400px;
+}
+
+.three-points-section img {
+    width: 300px;
+    margin: 0 auto;
+}
+.three-points-img{
+    width: 40%;
+    float: left;
+    
+}
+.three-points-text{
+    width: 60%;
+    float: left;
+}
+
+/***** TICKETS *****/
+
+
