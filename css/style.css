@@ -73,7 +73,7 @@ header img {
     width: 200px;
 }
 
-header h1 {
+header h1, header h2{
     text-transform: uppercase;
 }
 
@@ -169,4 +169,13 @@ footer .wrap {
 
 /***** TICKETS *****/
 
+#tickets h1  {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
+/* Tickets Form */
+
+#form-area {
+    text-align: center;
+}
