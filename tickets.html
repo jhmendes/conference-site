@@ -23,30 +23,31 @@
       <p>Orlando, FL - October 11, 2019</p>
     </header>
 
-    <h1>Tickets</h1>
+    <h1>Get Your Tickets!</h1>
     <section id="form-area">
       <form action="/" method="POST">
+        <h5>Your Info</h5>
         <div>
           <label for="name">Name</label>
-          <input type="text" name="name" id="name" required />
+          <input type="text" name="name" id="name" placeholder="NAME" required />
           <label for="name">Email</label>
-          <input type="email" name="name" id="name" required />
+          <input type="email" name="name" id="name" placeholder="EMAIL" required />
         </div>
         <br />
+        <h5>Package</h5>
         <select name="package" id="packge">
           <option value="149">Standard $149</option>
           <option value="249">Standard $249</option>
         </select>
-        <h5>Package</h5>
-        <input type="checkbox" value="lodging" name="addon" /> Add on lodging
+        <input type="checkbox" value="lodging" name="addon" />  Add on lodging
         $99<br />
-        <input type="checkbox" value="meals" name="addon" /> Add on meals $119
+        <input type="checkbox" value="meals" name="addon" />  Add on meals $119
         <br />
         <br />
-        <button>Submit</button>
+        <button class="btn">Submit</button>
       </form>
     </section>
-    <a href="index.html">Back to home</a>
+    <!-- <a href="index.html">Back to home</a> -->
     <footer>
         <div class="wrap">
           <p>&copy; 2019</p>
