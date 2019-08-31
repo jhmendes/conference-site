@@ -58,7 +58,7 @@ a {
 
 .wrap {
     max-width: 1280px;
-    padding: 50px;
+    padding: 70px;
     margin: 0 auto;
 }
 
@@ -377,5 +377,134 @@ footer .wrap {
 }
 
 @media only screen and (max-width: 479px) {
+
+    /*Header mobile*/
+    header {
+        padding: 20px;
+    }
+
+   header .wrap {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    /* Expect Mobile */
+
+    #expect .wrap {
+      text-align: center;
+    
+    }
+
+    #expect .wrap h3 {
+        margin-bottom: 40px;
+    }
+
+
+    #expect .wrap ul {
+    
+       padding-left: 0;
+    }
+
+    #expect .wrap ul li {
+        list-style: none;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
+
+    #expect .wrap ul li span {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+     /* Three Points Mobile */
+     #three-points .wrap {
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+
+     #three-points .three-points-section {
+         min-height: auto;
+     }
+
+     #three-points .three-points-img {
+         display: none;
+     }
+     #three-points .three-points-text {
+         float: none;
+        width: 100%;
+     }
+
+         /* Reserve Mobile */
+
+         #reserve .wrap {
+             padding-left: 45px;
+             padding-right: 45px;
+         }
+
+         #reserve table tr:nth-child(3) td {
+             padding: 25px;
+         }
+
+         #reserve .btn {
+             padding-left: 15px;
+             padding-right: 15px;
+         }
+
+           /* Speakers Mobile */
+
+           #speakers {
+               margin-bottom: 0;
+           }
+
+           #speakers .wrap {
+               padding-top: 40px;
+               padding-left: 60px;
+               padding-right: 60px;
+           }
+
+           #speakers h4 {
+               margin-bottom: 50px;
+           }
+
+           #speakers .day-one, #speakers .day-two {
+               float: none;
+               display: block;
+               width: 100%;
+               margin-right: 0;
+           }
+
+           #speakers .day-one {
+               margin-bottom: 50px;
+           }
+
+           #speakers .speaker-box {
+            box-shadow: none;
+            border: none;
+           }
+
+           #speakers .speaker-box div {
+               padding-left: 0;
+           }
+           
+
+           #speakers .speaker-box img {
+               display: none;
+           }
+
+            /* Waiting & Footer Mobile */
+
+            #waiting .wrap {
+                padding: 40px 15px 10px;
+            }
+
+            #waiting p, #waiting a.btn {
+                margin-bottom: 20px;
+            }
+
+           
+            footer p {
+                font-size: 12px;
+                margin: 0;
+            }
 
 }
