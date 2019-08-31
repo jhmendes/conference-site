@@ -78,7 +78,30 @@ a {
   border: 1px solid var(--light-red);
 }
 
+/***** NAVIGATION*****/
 
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav ul li {
+   list-style: none;
+   margin-right: 20px;
+}
+
+nav ul li a {
+    color: #000;
+    padding: 10px;
+    transition: all .3s ease;
+}
+
+nav ul li a:hover {
+    background: var(--dark-blue);
+    color: #fff;
+    border-radius: 10px;
+}
 
 /***** HOMEPAGE *****/
 
@@ -220,7 +243,7 @@ box-shadow: 10px 10px 5px -5px rgba(0,0,0,0.75);
     display: inline-block;
     float: left;
     width: 46%;
-    margin-right: 90px;
+    margin-right: 85px;
 }
 #speakers .day-two {
     display: inline-block;
@@ -338,3 +361,21 @@ footer .wrap {
     cursor: pointer;
 }
 
+
+/***** MEDIA QUERIES *****/
+
+/*
+4 main breakpoints
+1200
+1024
+768
+480
+*/
+
+@media only screen and (max-width: 767px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+
+}
