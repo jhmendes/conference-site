@@ -380,6 +380,34 @@ footer .wrap {
 }
 
 
+/***** Secret Code modal *****/
+
+.modal-hidden {
+    display: none;
+}
+
+.modal-shown {
+    display: block;
+    position: fixed;
+    background: var(--light-red);
+    color: #fff;
+    z-index: 9999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+    text-align: center;
+}
+
+
+.modal .close {
+    font-size: 20px;
+    text-align: right;
+}
+
+
+
+
 /***** MEDIA QUERIES *****/
 
 /*
