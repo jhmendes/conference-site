@@ -308,6 +308,12 @@ text-transform: uppercase;
     margin-bottom: 50px;
 }
 
+#time-output span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
 /* Footer */
 
 footer {

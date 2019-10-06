@@ -1,4 +1,8 @@
+//Challenge #1 - Modal Functionality
+
+
 //Modal 
+
 
 const modal = document.querySelector('.modal');
 
@@ -50,3 +54,4 @@ function winnerAlert() {
 function sorryAlert() {
   alert('Sorry, your code is invalid');
 }
+
